@@ -11,3 +11,12 @@ h1{
 .head{
 
 }
+#col-5{
+    border-bottom: 5px solid #c73c75;
+}
+#grad1
+{
+    background-color: rgb(220, 236, 239);
+    height: 14px;
+    width: 60px;
+}
