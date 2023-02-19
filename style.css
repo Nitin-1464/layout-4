@@ -1,16 +1,74 @@
-#col-1{
-    background-color:#2b2a2f;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-span{
-    color: #c73c75;
-    font-size: 50px;
+:root {
+    --pinkCol: #c73c75;
+    --dark: #2c2f36;
+    --blueTran: #1378af9a;
 }
-h1{
-    font-size: 50px;
-}
-.head{
 
+#col-1{
+    background-color: var(--dark);
+    z-index: -1;
 }
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo .head {
+    z-index: -1;
+    width: 8rem;
+    position: relative;
+}
+
+.logo .head h1:nth-child(2) {
+    position: absolute;
+    top: 0.87rem;
+    left: 0.4rem;
+    z-index: -1;
+    float: left;
+}
+
+.logo .head h1:nth-child(3) {
+    text-align: right;
+}
+
+.logo .head span {
+    color: var(--pinkCol);
+    z-index: 1;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.logo .sub-head {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#col-2 .col-add address {
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#col-2 .col-add {
+    margin: 1rem 3.8rem;
+}
+
+#main-section-1 {
+    background-image: url('./assets/background-img.avif');
+    width: 98.6vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#img-block-1 {
+    background-color: var(--blueTran);
+}
+
 #col-5{
     border-bottom: 5px solid #c73c75;
 }
