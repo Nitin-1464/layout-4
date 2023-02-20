@@ -100,13 +100,55 @@
     color: white;
     font-weight: 800;
 }
-#back{
-    width:  350px;
+/*#back{
+    /*width:  350px;
     height: 400px;
-    top: ;
-    /*bottom: 10px;*/
+    top: 325px;
+    /*bottom: 10px;
     margin-right: 10px;
     background-color: black;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    top: 350px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: white;
+    padding: 100px;
+    height: 100vh;
+}*/
+#main{
+
+    background-color: white;
+    margin-top: 0rem;
+    padding: 0.3rem;
+    width: 2rem;
+}
+#menu-1{
+
+    background-color: white;
+    margin-top: 0rem;
+    padding: 0.3rem;
+    width: 2rem;
+}
+#menu-2{
+
+    background-color: white;
+    margin-top: 0rem;
+    padding: 0.3rem;
+    width: 2rem;
+}#menu-3{
+
+    background-color: white;
+    margin-top: 0rem;
+    padding: 0.3rem;
+    width: 2rem;
+}
+#menu-4{
+
+    background-color: white;
+    margin-top: 0rem;
+    padding: 0.3rem;
+    width: 2rem;
 }
 
 .block-txt .body h3 span {
