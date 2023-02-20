@@ -5,7 +5,7 @@
 }
 :root {
     --pinkCol: #c73c75;
-    
+    --dark: #2c2f36;
     --dark: #2c2f36;
     --blueTran: #1378af9a;
 }
@@ -68,9 +68,17 @@
 
 #img-block-1 {
     background-color: var(--blueTran);
-    height: 49vw;
-    padding: 1px;
     
+    
+}
+.head {
+    margin-left: 10px;
+}
+
+.block-txt .head {
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .block-txt {
@@ -161,7 +169,201 @@
     width: 10em;
 }
 
-#cards .card 
+#cards .card {
+    width: 100%;
+    margin: 0px 10px;
+    border: none;
+}
+h6.card-subtitle {
+    color: var(--pinkCol);
+    font-size: 1.6rem;
+}
+
+h5.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+p.card-text {
+    font-weight: 600;
+}
+
+#cards .card .card-body span {
+    font-size: 5px;
+    margin: 0px 10px;
+    padding: 1px 10px;
+    background-color: var(--pinkCol);
+}
+
+#cards .box:nth-child(1):before {
+    content: '';
+    position: relative;
+    padding: 4rem 1px;
+    top: 10rem;
+    width: 2px;
+    height: 2rem;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+#cards .box:nth-child(2):before,
+#cards .box:nth-child(3):before {
+    content: '';
+    position: relative;
+    padding: 6rem 1px;
+    top: 14rem;
+    width: 2px;
+    height: 2rem;
+    border-radius: 100px;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+
+.About-us p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+p.card-text {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#boxofcontainerFluid{
+    background-color: var(--grayBcak);
+}
+
+
+#section {
+    margin: 0px 8vw;
+    padding: 1vw 1vw;
+}
+
+
+#section1 .About-us{
+    margin: 0px 10vw;
+    padding: 1vw 1vw;
+} 
+
+@media screen and (min-width: 2000px) {
+
+    #section {
+        margin: 0px 20rem;
+    }
+
+    .logo .head {
+        width: 17rem;
+    }
+
+    #main-section-1 {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .block-txt .head h3 {
+        font-size: 5rem;
+    }
+
+    #block-2 .block-add h3,
+    #block-2 .block-add h5 {
+        margin: 10px 0px;
+        font-size: 2rem;
+    }
+
+    #block-2 .block-add address {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .logo .head span {
+        z-index: 1;
+        font-weight: 900;
+        font-size: 5rem;
+    }
+
+    .logo .sub-head {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .logo .head h1:nth-child(2) {
+        position: absolute;
+        top: 2.7rem;
+        left: 1.1rem;
+        z-index: -1;
+        float: left;
+        font-size: 5rem;
+    }
+
+    .logo .head h1:nth-child(3) {
+        font-size: 5rem;
+    }
+
+    .block-txt .body h1 {
+        font-size: 17rem;
+    }
+
+    .block-txt .body h3 {
+        top: 7rem;
+        font-size: 10rem;
+    }
+
+    .block-txt .body h3 span {
+        padding: 0.4rem 0.4rem;
+        margin: 0px 10px;
+        font-size: 0rem;
+        background-color: var(--pinkCol);
+    }
+
+    #About-content h2 {
+        font-size: 3.4rem;
+    }
+
+    #cards .card img {
+        width: 15em;
+    }
+
+    h5.card-title {
+        font-size: 3rem;
+    }
+
+    h6.card-subtitle {
+        font-size: 2.6rem;
+    }
+
+    p.card-text {
+        font-size: 2rem;
+    }
+
+    .About-us p {
+        font-size: 1.7rem;
+    }
+
+    #footer h4 {
+        font-size: 3rem;
+    }
+
+
+    #cards .box:nth-child(2):before,
+    #cards .box:nth-child(3):before {
+        content: '';
+        position: relative;
+        padding: 10rem 2px;
+        top: 20rem;
+        width: 2px;
+        height: 2rem;
+        border-radius: 100px;
+        background-color: rgba(128, 128, 128, 0.479);
+    }
+
+    #pink-sec {
+        padding: 15rem;
+    }
+}
+
+
+
 
 @media screen and (min-width: 2500px) {
     .logo .head {
