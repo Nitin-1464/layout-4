@@ -5,6 +5,7 @@
 }
 :root {
     --pinkCol: #c73c75;
+    
     --dark: #2c2f36;
     --blueTran: #1378af9a;
 }
@@ -99,6 +100,14 @@
     color: white;
     font-weight: 800;
 }
+#back{
+    width:  350px;
+    height: 400px;
+    top: ;
+    /*bottom: 10px;*/
+    margin-right: 10px;
+    background-color: black;
+}
 
 .block-txt .body h3 span {
     padding: 0.8rem 0.8rem;
@@ -113,6 +122,11 @@
 
 #pink-sec {
     background-color: #c93a76bd;
+    padding: 100px;
+    height: 100vh;
+}
+#white-sec {
+    background-color: white;
     padding: 100px;
     height: 100vh;
 }
