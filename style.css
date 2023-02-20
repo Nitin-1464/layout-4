@@ -68,6 +68,7 @@
 
 #img-block-1 {
     background-color: var(--blueTran);
+    
 }
 
 .block-txt {
@@ -100,8 +101,8 @@
     color: white;
     font-weight: 800;
 }
-/*#back{
-    /*width:  350px;
+#back{
+    width:  350px;
     height: 400px;
     top: 325px;
     /*bottom: 10px;
@@ -114,8 +115,8 @@
     max-width: 100%;
     background-color: white;
     padding: 100px;
-    height: 100vh;
-}*/
+    height: 100vh;*/
+}
 #main{
 
     background-color: white;
@@ -124,34 +125,12 @@
     width: 2rem;
     padding: 2px 18px; margin: -1px ;
 }
-#menu-1{
-
-    background-color: white;
-    margin-top: 0rem;
-    padding: 0.3rem;
-    width: 2rem;
+#cards .card .card-body span {
+    font-size: 5px;
+    margin: 0px 10px;
+    padding: 1px 10px;
+    background-color: var(--pinkCol);
 }
-#menu-2{
-
-    background-color: white;
-    margin-top: 0rem;
-    padding: 0.3rem;
-    width: 2rem;
-}#menu-3{
-
-    background-color: white;
-    margin-top: 0rem;
-    padding: 0.3rem;
-    width: 2rem;
-}
-#menu-4{
-
-    background-color: white;
-    margin-top: 0rem;
-    padding: 0.3rem;
-    width: 2rem;
-}
-
 .block-txt .body h3 span {
     padding: 0.8rem 0.8rem;
     margin: 0px 20px;
@@ -258,7 +237,7 @@
 
     .block-txt .body h3 {
         top: 2rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .block-txt .body h3 span {
